@@ -171,6 +171,9 @@ h4 {
   text-align: center;
 }
 
+.contact-container h3 {
+  text-align: left;
+}
 /*footer*/
 
 footer .contact-section {
@@ -208,18 +211,9 @@ footer .repository p a:hover {
 /* responsive */
 
 @media (max-width: 992px) {
-  .btn-main {
-    margin: 50px 25%;
-  }
-
-  .app-image {
+  .groom-image {
     width: 301px !important;
     height: 189px !important;
-  }
-
-  .app-description {
-    padding: 0px;
-    max-width: 100%;
   }
 
   .content-container h1 {
@@ -228,12 +222,10 @@ footer .repository p a:hover {
   }
 
   .profile-picture {
-    padding: 10px 30px;
-    border-radius: 4px;
-  }
-
-  .content-container .btn-main {
-    margin: 50px 10%;
+    padding: 0px;
+    margin: 30% 30% 10px 0;
+    width: 337px;
+    length: 407px;
   }
 }
 
